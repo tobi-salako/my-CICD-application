@@ -2,7 +2,7 @@ pipeline{
     agent any
 	tools {
         maven 'maven-3.6.3'
-        jdk 'Jgit dk8'
+        jdk 'Jdk8'
     }
     stages{
         stage('init'){
